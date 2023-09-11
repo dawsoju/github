@@ -52,7 +52,7 @@ async function success(pluginConfig, context) {
     verified = true;
   }
 
-  await successGitHub(pluginConfig, context);
+  // await successGitHub(pluginConfig, context);
 }
 
 async function fail(pluginConfig, context) {
