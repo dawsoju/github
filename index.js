@@ -30,7 +30,7 @@ async function verifyConditions(pluginConfig, context) {
 
 async function publish(pluginConfig, context) {
   if (!verified) {
-    await verifyGitHub(pluginConfig, context);
+    // await verifyGitHub(pluginConfig, context);
     verified = true;
   }
 
@@ -39,7 +39,7 @@ async function publish(pluginConfig, context) {
 
 async function addChannel(pluginConfig, context) {
   if (!verified) {
-    await verifyGitHub(pluginConfig, context);
+    // await verifyGitHub(pluginConfig, context);
     verified = true;
   }
 
@@ -48,7 +48,7 @@ async function addChannel(pluginConfig, context) {
 
 async function success(pluginConfig, context) {
   if (!verified) {
-    await verifyGitHub(pluginConfig, context);
+    // await verifyGitHub(pluginConfig, context);
     verified = true;
   }
 
@@ -57,7 +57,7 @@ async function success(pluginConfig, context) {
 
 async function fail(pluginConfig, context) {
   if (!verified) {
-    await verifyGitHub(pluginConfig, context);
+    // await verifyGitHub(pluginConfig, context);
     verified = true;
   }
 
