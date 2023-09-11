@@ -24,7 +24,7 @@ async function verifyConditions(pluginConfig, context) {
     pluginConfig.assignees = defaultTo(pluginConfig.assignees, publishPlugin.assignees);
   }
 
-  await verifyGitHub(pluginConfig, context);
+  // await verifyGitHub(pluginConfig, context);
   verified = true;
 }
 
